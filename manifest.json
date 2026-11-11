@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "maxi.timer",
+  "name": "Timer",
+  "version": "1.0.0",
+  "author": "Maxi",
+  "description": "A quick countdown timer for the top bar",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Timer",
+    "description": "Quick and custom countdown timers",
+    "category": "Time",
+    "allowMultiple": false
+  }
+}
